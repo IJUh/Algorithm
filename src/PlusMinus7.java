@@ -9,7 +9,9 @@ public class PlusMinus7 {
 		for(int i = 0; i < T; i++) {
 			x = s.nextInt();
 			z = s.nextInt();
-			System.out.println("Case #"+(i+1) + ": "+(x+z));
+			int num = i+1;
+			int sum = x + z;
+			System.out.println("Case #"+num + ": " + x + " + " + z + " = " + sum);
 		}
 		s.close();
 	}
